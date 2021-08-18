@@ -20,6 +20,7 @@ namespace Business.Concrete
             _ProductDal = productDal;
         }
 
+        
         public IResult Add(Product product)
         {
             //business codes

@@ -6,12 +6,16 @@ namespace Core.Utilities.Results
 {
     public class ErrorResult:Result 
     {
+        public ErrorResult()
+        {
+        }
+
         public ErrorResult(string message) : base(false, message)
         {
 
         }
 
-        public ErrorResult() : base(false)
+        public ErrorResult(object productCountOfCategoryError) : base(false)
         {
 
         }
